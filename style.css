@@ -1,0 +1,28 @@
+div{
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.btn{
+    width: 170px;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    border: none;
+    margin-top: 50px;
+    position: relative;
+    cursor: pointer;
+    transition: .3s ease all;
+    overflow: hidden;
+}
+.btn span{
+    position: relative;
+	z-index: 2;
+	transition: .3s ease all;
+}
+cinco:hover{
+    background: #2f9b05;
+}

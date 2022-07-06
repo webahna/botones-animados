@@ -1,0 +1,32 @@
+.cinco span{
+    transition: .4s ease-in-out all;
+	position: absolute;
+    top: 18px;
+	left: 37%;
+}
+.icono{
+    display: flex;
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+    top: 15px;
+	left: -40px;
+	transition: .3s ease-in-out all;
+	opacity: 0;
+}
+.cinco svg {
+	color: #fff;
+	width: 25px;
+	height: 25px;
+}
+.cinco:hover .icono {
+	left: calc(100% - 35px);
+	opacity: 1;
+}
+
+.cinco:hover span {
+	left: 20px;
+}
+.cinco:hover{
+    background: #286cff;
+}
